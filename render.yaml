@@ -2,14 +2,13 @@ version: 1
 services:
   web:
     type: web_service
-    name: your_service_name
+    name: scrapp
     env: python
     plan: free
     buildCommand: |
       pip install Flask
       pip install pandas
-      pip install gspread 
-      pip install playwright
+      pip install gspread
       pip install playwright
       pip install requests
       pip install beautifulsoup4
