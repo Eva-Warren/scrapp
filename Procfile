@@ -1,1 +1,1 @@
-web: python3 app.py
+web: pip install playwright && playwright install && python3 pl.py
